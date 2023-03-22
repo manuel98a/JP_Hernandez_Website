@@ -7,7 +7,7 @@ body {
 }
 
 .responsive {
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 
@@ -51,10 +51,11 @@ li {
 
 .icon {
     margin-bottom: 1rem;
+    color: inherit;
 }
 
 .icon:hover {
-    color: #FF4C68;
+    color: #8F8F8F;
 }
 
 /* Navigation bar */
@@ -139,13 +140,17 @@ li {
 }
 
 /* Features */
-#features {
+#contact {
     padding: 7% 15%;
-    background-color: #f5f4f2;
+    background-color: #2f3b3b;
+    text-align: center;
 }
 
-.feature-box {
-    text-align: center;
+#contact h2{
+    color: #b3b3b3;
+}
+
+.contact-box {
     padding: 5%;
 }
 
@@ -155,11 +160,16 @@ li {
     }
 
     .initial-image {
-        width: 70%;
+        width: 90%;
     }
 
     .book-image {
         width: 80%;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
     }
 }
 
