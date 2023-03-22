@@ -1,0 +1,238 @@
+html{
+    background-color: #2C3333;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#title {
+    background-color: #2C3333;
+    color: white;
+}
+
+.title-rows {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 1.5rem;
+    font-weight: bold;
+}
+
+p,
+li {
+    color: #8F8F8F;
+}
+
+.icon {
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #FF4C68;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding: 0 0 1rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+}
+
+.nav-image{
+    width: 100px;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+/* Download bottons */
+
+.download-botton {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title image */
+.title-image {
+    width: 100%;
+}
+
+/* Books */
+#books {
+    background-color: #233131;
+    color: #b3b3b3;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: italic;
+}
+
+.book-image {
+    height: 400px;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Buy */
+#buy {
+    padding: 100px;
+    text-align: center;
+    background-color: #183838;
+}
+
+#buy h2{
+    color: #b3b3b3;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.listed-price {
+    font-weight: 400;
+}
+
+.card-header {
+    background-color: #18383848;
+}
+
+.card-body {
+    background-color: #586d6d;
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+    background-color: #f5f4f2;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/*
+@media (max-width: 1028px) {
+
+    .navbar-toggler {
+        padding: 15px 25px;
+        font-size: 20pt;
+    }
+
+    .nav-link {
+        font-size: 50pt;
+    }
+
+    .navbar-brand {
+        font-size: 35pt;
+    }
+
+    .title-rows {
+        padding-top: 0px;
+    }
+
+    .title-image {
+        width: 85%;
+    }
+
+    #features {
+        padding: 7% 12%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    body {
+        zoom: 240%;
+    }
+
+    #pricing {
+        padding: 30px;
+    }
+
+    .g-map {
+        zoom: 50%;
+    }
+
+    .nail-example {
+        width: 90%;
+        margin: 0;
+    }
+
+    .title-btn {
+        padding: 20px 30px;
+        font-size: 25pt;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .feature-name {
+        font-size: 3rem;
+    }
+
+    .p-pricing {
+        font-size: 0.9rem;
+    }
+}*/
+
+/* Location */
+#location {
+    padding: 100px 10px;
+    text-align: center;
+    background-color: #f5f4f2;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    background-color: #2C3333;
+
+}
+
+#footer a {
+    text-decoration: none !important;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: inherit;
+}
