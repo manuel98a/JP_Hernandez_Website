@@ -6,6 +6,11 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.responsive{
+    width: 70%;
+    height: auto;
+}
+
 #title {
     background-color: #2C3333;
     color: white;
