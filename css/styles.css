@@ -1,4 +1,4 @@
-html{
+html {
     background-color: #2C3333;
 }
 
@@ -6,8 +6,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.responsive{
-    width: 70%;
+.responsive {
+    width: 50%;
     height: auto;
 }
 
@@ -68,7 +68,7 @@ li {
     font-size: 3rem;
 }
 
-.nav-image{
+.nav-image {
     width: 100px;
 }
 
@@ -102,7 +102,8 @@ li {
 }
 
 .book-image {
-    height: 400px;
+    width: 400px;
+    height: auto;
     margin: 20px;
 }
 
@@ -117,7 +118,7 @@ li {
     background-color: #183838;
 }
 
-#buy h2{
+#buy h2 {
     color: #b3b3b3;
 }
 
@@ -146,6 +147,20 @@ li {
 .feature-box {
     text-align: center;
     padding: 5%;
+}
+
+@media (max-width: 1028px) {
+    .nav-image {
+        width: 10%;
+    }
+
+    .initial-image {
+        width: 70%;
+    }
+
+    .book-image {
+        width: 80%;
+    }
 }
 
 /*
