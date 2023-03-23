@@ -102,10 +102,17 @@ li {
 }
 
 .book-image {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: 20px;
 }
+
+.book-image-amazon {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
 
 .carousel-item {
     padding: 7% 15%;
@@ -138,7 +145,7 @@ li {
     background-color: #586d6d;
 }
 
-/* Features */
+/* Contact */
 #contact {
     padding: 7% 15%;
     background-color: #2f3b3b;
@@ -172,90 +179,27 @@ li {
         width: 80%;
     }
 
+    .book-image-amazon{
+        width: 75%;
+    }
+
+    .pricing-column-amazon{
+        width: 50%;
+    }
+
     .responsive {
         width: 100%;
         height: auto;
     }
 
     #buy {
-        padding: 50px 80px 100px;
+        padding: 50px 60px 100px;
     }
 
     .title-rows {
         padding-top: 30px;
     }
 }
-
-/*
-@media (max-width: 1028px) {
-
-    .navbar-toggler {
-        padding: 15px 25px;
-        font-size: 20pt;
-    }
-
-    .nav-link {
-        font-size: 50pt;
-    }
-
-    .navbar-brand {
-        font-size: 35pt;
-    }
-
-    .title-rows {
-        padding-top: 0px;
-    }
-
-    .title-image {
-        width: 85%;
-    }
-
-    #features {
-        padding: 7% 12%;
-    }
-
-    #title {
-        text-align: center;
-    }
-
-    body {
-        zoom: 240%;
-    }
-
-    #pricing {
-        padding: 30px;
-    }
-
-    .g-map {
-        zoom: 50%;
-    }
-
-    .nail-example {
-        width: 90%;
-        margin: 0;
-    }
-
-    .title-btn {
-        padding: 20px 30px;
-        font-size: 25pt;
-    }
-
-    h2 {
-        font-size: 3rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-
-    .feature-name {
-        font-size: 3rem;
-    }
-
-    .p-pricing {
-        font-size: 0.9rem;
-    }
-}*/
 
 /* Location */
 #location {
