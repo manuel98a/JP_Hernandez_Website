@@ -189,14 +189,16 @@ li {
 
 @media (max-width: 1028px) {
     .nav-image {
-        width: 0%;
-        height: 0%;
-        visibility: hidden;
+        width: 50px;
+       /* width: 25%;
+        height: 25%;
+
+        visibility: hidden;*/
     }
 
-    .navbar-logo {
+    /*.navbar-logo {
         display: none;
-    }
+    }*/
 
     .initial-image {
         width: 90%;
