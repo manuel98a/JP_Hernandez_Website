@@ -43,6 +43,28 @@ h3 {
     font-weight: bold;
 }
 
+h4 {
+    color: #b3b3b3;
+}
+
+.here:link{
+    color: beige;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.here:visited{
+    color: beige;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.here:hover{
+    color: darkcyan;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 p,
 li {
     color: #8F8F8F;
@@ -143,6 +165,10 @@ li {
 
 .card-body {
     background-color: #586d6d;
+}
+
+.card-footer {
+    background-color: #18383848;
 }
 
 /* Contact */
