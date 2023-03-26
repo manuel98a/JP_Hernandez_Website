@@ -161,6 +161,7 @@ li {
 
 .card-header {
     background-color: #18383848;
+    padding: 10px;
 }
 
 .card-body {
